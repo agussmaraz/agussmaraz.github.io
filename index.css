@@ -2,5 +2,5 @@ vd-selfie::part(instructions_slide_box_title) {
     color: red;
 }
 vd-selfie::part(capture_display_message) {
-    top: -50px;
+    top: 100px;
 }
