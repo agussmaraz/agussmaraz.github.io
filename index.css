@@ -1,3 +1,9 @@
 vd-selfie::part(instructions_slide_box_title) {
     color: red;
 }
+
+vd-selfie::part(capture_glowing_outline_top_div) {
+    background-color: #000D44;
+    border-radius: 8px;
+    margin-top: 20px;
+}
