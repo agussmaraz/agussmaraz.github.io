@@ -10,6 +10,16 @@ vd-selfie::part(instructions_slide_box_subtitle) {
     text-align: center;
 }
 
+vd-selfie::part(capture_display_message) {
+    top: 105px;
+    background-color: rgba(4, 50, 99, 1);
+    border-radius: 0px;
+}
+
+vd-selfie::part(capture_display_message_text) {
+    color: white;
+}
+
 vd-selfie::part(capture_glowing_outline_top_div) {
     background-color: #000D44;
     border-radius: 8px;
