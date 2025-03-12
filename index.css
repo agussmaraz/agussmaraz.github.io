@@ -2,7 +2,6 @@ vd-selfie::part(instructions_slide_box_title) {
     color: rgba(18, 18, 18, 1);
     width: 220px;
     text-align: center;
-    font-family:"Benton Sans";
 }
 
 vd-selfie::part(instructions_slide_box_subtitle) {
@@ -14,6 +13,7 @@ vd-selfie::part(capture_display_message) {
     top: 105px;
     background-color: rgba(4, 50, 99, 1);
     border-radius: 0px;
+    width: 265px;
 }
 
 vd-selfie::part(capture_display_message_text) {
@@ -23,5 +23,10 @@ vd-selfie::part(capture_display_message_text) {
 vd-selfie::part(capture_glowing_outline_top_div) {
     background-color: rgba(4, 50, 99, 1);
     border-radius: 0px;
-    margin-top: 80px;
+    margin-top: 103px;
+    width: 265px;
+}
+
+vd-selfie::part(capture_glowing_outline_top_message) {
+    color: white;
 }
