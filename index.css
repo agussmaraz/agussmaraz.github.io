@@ -1,6 +1,8 @@
 vd-selfie::part(instructions_slide_box_title) {
     color: rgba(18, 18, 18, 1);
     width: 220px;
+    text-align: center;
+    font-family:"Benton";
 }
 
 vd-selfie::part(instructions_slide_box_subtitle) {
