@@ -14,6 +14,7 @@ vd-selfie::part(capture_display_message) {
     background-color: rgba(4, 50, 99, 1);
     border-radius: 0px;
     width: 265px;
+    height: 72px;
 }
 
 vd-selfie::part(capture_display_message_text) {
@@ -24,7 +25,9 @@ vd-selfie::part(capture_glowing_outline_top_div) {
     background-color: rgba(4, 50, 99, 1);
     border-radius: 0px;
     margin-top: 103px;
+    margin-left: 67px;
     width: 265px;
+    height: 72px;
 }
 
 vd-selfie::part(capture_glowing_outline_header_top_message) {
