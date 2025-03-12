@@ -1,5 +1,11 @@
 vd-selfie::part(instructions_slide_box_title) {
-    color: red;
+    color: rgba(18, 18, 18, 1);
+    width: 220px;
+}
+
+vd-selfie::part(instructions_slide_box_subtitle) {
+    color: rgba(18, 18, 18, 1);
+    text-align: center;
 }
 
 vd-selfie::part(capture_glowing_outline_top_div) {
