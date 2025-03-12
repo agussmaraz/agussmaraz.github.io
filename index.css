@@ -27,6 +27,10 @@ vd-selfie::part(capture_glowing_outline_top_div) {
     width: 265px;
 }
 
+vd-selfie::part(capture_glowing_outline_header_top_message) {
+    display: none;
+}
+
 vd-selfie::part(capture_glowing_outline_top_message) {
     color: white;
 }
