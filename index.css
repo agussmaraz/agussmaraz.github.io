@@ -31,9 +31,6 @@ vd-selfie::part(capture_display_message) {
     border-radius: 0px;
     width: 265px;
     height: 72px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 vd-selfie::part(capture_display_message_text) {
