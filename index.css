@@ -17,6 +17,10 @@ vd-selfie::part(capture_glowing_outline_container_detection){
     border-radius: 100%;
 }
 
+vd-selfie::part(capture_glowing_outline_container_faceNotCentered) {
+    border-radius: 100%;
+}
+
 vd-selfie::part(capture_display_message) {
     top: 105px;
     background-color: rgba(4, 50, 99, 1);
