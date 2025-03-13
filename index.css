@@ -37,7 +37,7 @@ vd-selfie::part(capture_display_message_text) {
     color: white;
 }
 
-vd-selfie::part(capture_head_pose_inner_rectangle) {
+vd-selfie::part(capture_head_pose_rectangle) {
     background-color: rgba(7, 33, 70, 1);
 }
 
