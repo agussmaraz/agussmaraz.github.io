@@ -1,6 +1,6 @@
 vd-selfie::part(instructions_slide_box_title) {
     color: rgba(18, 18, 18, 1);
-    width: 220px;
+    width: 357px;
     text-align: center;
 }
 
@@ -21,7 +21,11 @@ vd-selfie::part(capture_glowing_outline_container_faceNotCentered) {
     border-radius: 100%;
 }
 
-vd-selfie::part(capture_glowing_outline_container_faceCentered) {
+vd-selfie::part(glowing_outline_container_faceCentered) {
+    border-radius: 100%;
+}
+
+vd-selfie::part(glowing_outline_container_faceCentered_faceCloseOrFar) {
     border-radius: 100%;
 }
 
