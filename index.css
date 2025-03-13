@@ -21,6 +21,10 @@ vd-selfie::part(capture_glowing_outline_container_faceNotCentered) {
     border-radius: 100%;
 }
 
+vd-selfie::part(capture_glowing_outline_container_faceCentered) {
+    border-radius: 100%;
+}
+
 vd-selfie::part(capture_display_message) {
     top: 105px;
     background-color: rgba(4, 50, 99, 1);
@@ -35,6 +39,10 @@ vd-selfie::part(capture_display_message_text) {
 
 vd-selfie::part(capture_head_pose_inner_rectangle) {
     background-color: rgba(7, 33, 70, 1);
+}
+
+vd-selfie::part(capture_head_pose_inner_rectangle) {
+    background-color: rgba(247, 137, 59, 1);
 }
 
 vd-selfie::part(capture_glowing_outline_top_div) {
