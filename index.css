@@ -3,20 +3,21 @@ vd-selfie::part(instructions_close_button_img) {
     height: 32px;
 }
 
+vd-selfie::part(capture_close_button_img) {
+    filter: none;
+    width: 32px;
+    height: 32px;
+}
+
 vd-selfie::part(review_image_close_button_img) {
     width: 32px;
     height: 32px;
 }
 
 vd-selfie::part(review_image_close_button_button) {
-    width: 32px;
-    height: 32px;
-}
-
-vd-selfie::part(capture_close_button_img) {
-    filter: none;
-    width: 32px;
-    height: 32px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
 }
 
 vd-selfie::part(instructions_slide_box_title) {
