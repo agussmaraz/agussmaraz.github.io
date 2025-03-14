@@ -16,21 +16,18 @@ vd-selfie::part(instructions_slide_box_subtitle) {
 
 vd-selfie::part(capture_glowing_outline_container) {
   border-radius: 100%;
-  width: auto;
 }
 
 vd-selfie::part(capture_glowing_outline_container_detection) {
   border-radius: 100%;
-  width: auto;
 }
 
 vd-selfie::part(capture_glowing_outline_container_faceNotCentered) {
     border-radius: 100%;
 }
 
-vd-selfie::part(glowing_outline_container_faceNotCentered_faceCloseOrFar) {
+vd-selfie::part(glowing_outline_container_faceCentered_faceCloseOrFar) {
   border-radius: 100%;
-  width: auto;
 }
 
 vd-selfie::part(capture_display_message) {
