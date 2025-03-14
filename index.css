@@ -25,6 +25,18 @@ vd-selfie::part(capture_glowing_outline_container_faceNotCentered) {
     border-radius: 100%;
 }
 
+vd-selfie::part(glowing_outline_container_faceNotCentered_faceCloseOrFar) {
+  border-radius: 60%/50% 50% 80% 80%;
+  aspect-ratio: 3/4;
+  width: auto;
+}
+
+vd-selfie::part(capture_glowing_outline_container_success) {
+  border-radius: 60%/50% 50% 80% 80%;
+  aspect-ratio: 3/4;
+  width: auto;
+}
+
 vd-selfie::part(capture_display_message) {
     top: 105px;
     background-color: rgba(4, 50, 99, 1);
