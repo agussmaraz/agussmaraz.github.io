@@ -69,6 +69,10 @@ vd-selfie::part(capture_glowing_outline_top_message) {
     margin-top: 16px;
 }
 
+vd-selfie::part(capture_arrow_bottom_img) {
+    transform: rotate(0.6turn);
+}
+
 vd-selfie::part(review_image_message_text) {
     background-color: rgba(4, 50, 99, 1);
     color: white;
