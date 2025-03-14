@@ -28,6 +28,10 @@ vd-selfie::part(review_image_close_button_button) {
     background-color: red;
 }
 
+vd-selfie::part(instructions_slide_button) {
+  
+}
+
 vd-selfie::part(instructions_slide_box_title) {
     color: rgba(18, 18, 18, 1);
     width: 357px;
@@ -70,7 +74,7 @@ vd-selfie::part(capture_display_message_text) {
 vd-selfie::part(capture_glowing_outline_top_div) {
     background-color: rgba(4, 50, 99, 1);
     border-radius: 0px;
-    margin: 103px 60px;
+    margin: 103px calc((var(--main-sdk-width) - 274px)*0.5);
     width: 274px;
     height: 74px;
     padding: 2px;
