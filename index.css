@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Benton Sans BBVA";
+  src: url("https://assets.bbvaexperience.com/fonts/BentonSansBBVA-Medium-Lite.woff2") format("woff2"), url("https://assets.bbvaexperience.com/fonts/BentonSansBBVA-Medium-Lite.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: fallback;
+}
+
 vd-selfie::part(instructions_close_button_img) {
     width: 32px;
     height: 32px;
