@@ -23,6 +23,11 @@ vd-selfie::part(capture_glowing_outline_container_faceNotCentered) {
     border-radius: 100%;
 }
 
+vd-selfie::part(capture_glowing_outline_container_success) {
+    border-radius: 100%;
+    border-color: red;
+}
+
 vd-selfie::part(glowing_outline_container_faceNotCentered_faceCloseOrFar) {
   border-radius: 100%;
   width: auto;
