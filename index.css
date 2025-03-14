@@ -10,6 +10,8 @@ vd-selfie::part(review_image_close_button_img) {
 
 vd-selfie::part(capture_close_button_img) {
     filter: none;
+    width: 32px;
+    height: 32px;
 }
 
 vd-selfie::part(instructions_slide_box_title) {
@@ -70,7 +72,11 @@ vd-selfie::part(capture_glowing_outline_top_message) {
 }
 
 vd-selfie::part(capture_arrow_bottom_img) {
-    transform: rotate(0.6turn);
+    transform: rotate(0.5turn);
+}
+
+vd-selfie::part(capture_arrow_left_img) {
+    transform: rotate(0.5turn);
 }
 
 vd-selfie::part(review_image_message_text) {
