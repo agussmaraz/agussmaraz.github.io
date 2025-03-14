@@ -8,7 +8,7 @@ vd-selfie::part(review_image_close_button_img) {
     height: 32px;
 }
 
-vd-selfie::part(capture_close_button_button) {
+vd-selfie::part(capture_close_button_img) {
     filter: none;
 }
 
