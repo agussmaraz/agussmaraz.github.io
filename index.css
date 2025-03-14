@@ -72,7 +72,8 @@ vd-selfie::part(capture_glowing_outline_top_div) {
     border-radius: 0px;
     margin: 103px 60px;
     width: 274px;
-    height: 70px;
+    height: 74px;
+    padding: 2px;
 }
 
 vd-selfie::part(capture_glowing_outline_header_top_message) {
