@@ -10,22 +10,18 @@ vd-selfie::part(instructions_slide_box_subtitle) {
 }
 
 vd-selfie::part(capture_glowing_outline_container) {
-    border-radius: 100%;
+  border-radius: 60%/50% 50% 80% 80%;
+  aspect-ratio: 3/4;
+  width: auto;
 }
 
-vd-selfie::part(capture_glowing_outline_container_detection){
-    border-radius: 100%;
+vd-selfie::part(capture_glowing_outline_container_detection) {
+  border-radius: 60%/50% 50% 80% 80%;
+  aspect-ratio: 3/4;
+  width: auto;
 }
 
 vd-selfie::part(capture_glowing_outline_container_faceNotCentered) {
-    border-radius: 100%;
-}
-
-vd-selfie::part(glowing_outline_container_faceCentered) {
-    border-radius: 100%;
-}
-
-vd-selfie::part(glowing_outline_container_faceCentered_faceCloseOrFar) {
     border-radius: 100%;
 }
 
