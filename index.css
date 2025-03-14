@@ -102,8 +102,8 @@ vd-selfie::part(review_image_message_buttons_continue) {
 }
 
 vd-selfie::part(capture_success_tick_img) {
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 
 vd-video::part(capture_glowing_outline_container_faceCentered) {
