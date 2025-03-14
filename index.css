@@ -3,6 +3,15 @@ vd-selfie::part(instructions_close_button_img) {
     height: 32px;
 }
 
+vd-selfie::part(review_image_close_button_img) {
+    width: 32px;
+    height: 32px;
+}
+
+vd-selfie::part(capture_close_button_button) {
+    filter: none;
+}
+
 vd-selfie::part(instructions_slide_box_title) {
     color: rgba(18, 18, 18, 1);
     width: 357px;
