@@ -22,16 +22,6 @@ vd-selfie::part(review_image_close_button_img) {
     height: 32px;
 }
 
-vd-selfie::part(review_image_close_button_button) {
-    width: 150px;
-    height: 150px;
-    background-color: red;
-}
-
-vd-selfie::part(instructions_slide_button) {
-  
-}
-
 vd-selfie::part(instructions_slide_box_title) {
     color: rgba(18, 18, 18, 1);
     width: 357px;
@@ -65,6 +55,9 @@ vd-selfie::part(capture_display_message) {
     border-radius: 0px;
     width: 265px;
     height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 vd-selfie::part(capture_display_message_text) {
