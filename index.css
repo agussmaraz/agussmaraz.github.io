@@ -23,11 +23,6 @@ vd-selfie::part(capture_glowing_outline_container_faceNotCentered) {
     border-radius: 100%;
 }
 
-vd-selfie::part(capture_glowing_outline_container_success) {
-    border-radius: 100%;
-    border-color: red;
-}
-
 vd-selfie::part(glowing_outline_container_faceNotCentered_faceCloseOrFar) {
   border-radius: 100%;
   width: auto;
@@ -98,4 +93,8 @@ vd-selfie::part(capture_success_tick_img) {
 vd-selfie::part(capture_success_tick_circle) {
     stroke: red; 
     fill: none;	
+}
+
+vd-video::part(capture_glowing_outline_container_faceCentered) {
+    border-radius: 100%;
 }
