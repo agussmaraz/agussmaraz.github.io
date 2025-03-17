@@ -67,8 +67,8 @@ vd-selfie::part(capture_display_message_text) {
 vd-selfie::part(capture_glowing_outline_top_div) {
     background-color: rgba(4, 50, 99, 1);
     border-radius: 0px;
-    margin: 103px calc((var(--main-sdk-width) - 274px)*0.5);
-    width: 274px;
+    margin: 103px calc((var(--main-sdk-width) - 280px)*0.5);
+    width: 280px;
     height: 74px;
     padding: 2px;
 }
@@ -79,7 +79,7 @@ vd-selfie::part(capture_glowing_outline_header_top_message) {
 
 vd-selfie::part(capture_glowing_outline_top_message) {
     color: white;
-    margin-top: 16px;
+    margin-top: 13px;
     font-size: 20px;
 }
 
