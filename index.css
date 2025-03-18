@@ -6,13 +6,6 @@
   font-display: fallback;
 }
 
-vd-selfie::part(instructions_close_button_button) {
-  background-color: rgba(25, 115, 184, 1);
-  width: 29px;
-  height: 29px;
-  border-radius: 100%;
-}
-
 vd-selfie::part(instructions_close_button_img) {
     width: 32px;
     height: 32px;
@@ -24,16 +17,10 @@ vd-selfie::part(capture_close_button_img) {
     height: 32px;
 }
 
-vd-selfie::part(review_image_close_button_button) {
-  background-color: rgba(25, 115, 184, 1);
-  width: 29px;
-  height: 29px;
-  border-radius: 100%;
-}
 
 vd-selfie::part(review_image_close_button_img) {
-    height: 15px;
-    padding-top: 5px;
+    width: 32px;
+    height: 32px;
 }
 
 vd-selfie::part(instructions_slide_box_title) {
