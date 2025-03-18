@@ -17,10 +17,13 @@ vd-selfie::part(capture_close_button_img) {
     height: 32px;
 }
 
-
 vd-selfie::part(review_image_close_button_img) {
     width: 32px;
     height: 32px;
+}
+
+vd-selfie::part(instructions_slide_button)::hover {
+  background-color: #1464A5;
 }
 
 vd-selfie::part(instructions_slide_box_title) {
@@ -32,6 +35,10 @@ vd-selfie::part(instructions_slide_box_title) {
 vd-selfie::part(instructions_slide_box_subtitle) {
     color: rgba(18, 18, 18, 1);
     text-align: center;
+}
+
+vd-selfie::part(capture_logo_img){
+  width: 120px;
 }
 
 vd-selfie::part(capture_glowing_outline_container) {
