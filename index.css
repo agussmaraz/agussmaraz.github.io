@@ -34,7 +34,7 @@ vd-selfie::part(instructions_slide_box_subtitle) {
 }
 
 vd-selfie::part(capture_logo_img){
-  width: 120px;
+  width: 150px;
 }
 
 vd-document::part(capture_glowing_outline_container)::before {
@@ -171,6 +171,7 @@ vd-selfie::part(feedback_restart_button) {
   background-color: rgba(20, 100, 165, 1);
   border-radius: 0;
   margin-top: 20px;
+  border: none;
 }
 
 vd-selfie::part(feedback_close_button_img) {
