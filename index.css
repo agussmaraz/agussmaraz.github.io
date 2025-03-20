@@ -17,11 +17,6 @@ vd-selfie::part(capture_close_button_img) {
     height: 32px;
 }
 
-vd-selfie::part(review_image_close_button_img) {
-    width: 32px;
-    height: 32px;
-}
-
 vd-selfie::part(instructions_slide_box_title) {
     color: rgba(18, 18, 18, 1);
     width: 357px;
@@ -123,34 +118,6 @@ vd-selfie::part(capture_arrow_top_img) {
 
 vd-selfie::part(capture_arrow_right_img) {
     width: 60px;
-}
-
-vd-selfie::part(review_image_message_text) {
-    background-color: rgba(4, 50, 99, 1);
-    color: white;
-    height: 74px;
-    width: 280px;
-    margin: 0px auto 50px auto;
-    font-weight: 500;
-}
-
-vd-selfie::part(review_image_img_container) {
-    border-color: rgba(20, 100, 165, 1);
-}
-
-vd-selfie::part(review_image_message_buttons) {
-    display:flex;
-    flex-flow: column-reverse;
-}
-
-vd-selfie::part(review_image_message_buttons_repeat) {
-    color: rgba(20, 100, 165, 1);
-}
-
-vd-selfie::part(review_image_message_buttons_continue) {
-    color: white;
-    background-color: rgba(20, 100, 165, 1);
-    width: 288px;
 }
 
 vd-selfie::part(capture_success_tick_img) {
